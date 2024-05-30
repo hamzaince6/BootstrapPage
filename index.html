@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap Landing Page</title>
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -12,6 +11,7 @@
     <link rel="stylesheet" href="css/main.css">
     <!-- Bootstrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +28,7 @@
                 <div class="col-md-4 pt-2">
                     <h6><i class="bi bi-envelope">hamza@grouptaiga.com</i></h6>
                 </div>
-                <div class="col-md-4 text-end">
+                <div class="col-md-4 text-end header-social">
                     <a href="#" class="btn btn-primary text-white"><i class="bi bi-facebook"></i></a>
                     <a href="#" class="btn btn-primary text-white"><i class="bi bi-instagram"></i></a>
                     <a href="#" class="btn btn-primary text-white"><i class="bi bi-x"></i></a>
@@ -38,7 +38,90 @@
             </div>
         </div>
     </section>
+    <nav class="navbar bg-info navbar-expand-lg">
+       <div class="container">
+           <a href="#" class="navbar-brand">Learn Code</a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler"></span></button>
+           <div id="navmenu" class="collapse navbar-collapse">
+               <ul class="navbar-nav ms-auto">
+                   <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                   <li class="nav-item"><a href="#hero-area" class="nav-link">About</a></li>
+                   <li class="nav-item"><a href="#service" class="nav-link">Service</a></li>
+                   <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
+                   <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+                   <li class="nav-item"><a href="#analysis" class="nav-link">Analysis</a></li>
+                   <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+               </ul>
+           </div>
+       </div>
+    </nav>
 </header>
+
+<section id="hero-area" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 align-self-center">
+                <h3>Let's Learn Coding</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aliquam amet blanditiis, dolor doloremque ipsa nam omnis rerum tenetur.</p>
+                <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#join">Join Now</a>
+            </div>
+            <div class="col-md-6 pt-4">
+                <img src="img/6502423.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="service" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-center mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="bi bi-gear m-auto d-block btn-outline-primary pt-2 my-3"></i>
+                        <h4>Easy to Use</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem commodi consectetur dolore dolores ea, est ex id illum, magnam maxime nihil officia officiis possimus quisquam sit tempore voluptas? Maiores, porro?</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="bi bi-people m-auto d-block btn-outline-primary pt-2 my-3"></i>
+                        <h4>Awesome Design</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem commodi consectetur dolore dolores ea, est ex id illum, magnam maxime nihil officia officiis possimus quisquam sit tempore voluptas? Maiores, porro?</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="bi-graph-up-arrow m-auto d-block btn-outline-primary pt-2 my-3"></i>
+                        <h4>Easy to Customize</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem commodi consectetur dolore dolores ea, est ex id illum, magnam maxime nihil officia officiis possimus quisquam sit tempore voluptas? Maiores, porro?</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="analysis" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/1.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-6 align-self-center">
+                <h3>Analysis for Bussienes Opportunies</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dignissimos dolore eum explicabo iure, minima nostrum ratione sint tempora temporibus?</p>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
